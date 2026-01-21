@@ -1,9 +1,10 @@
 .edit-mode {
   width: 100vw;
   height: 100vh;
+  height: -webkit-fill-available;
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: clamp(10px, 2vw, 20px);
   overflow: hidden;
 }
 
@@ -495,5 +496,103 @@
   padding: 30px;
   color: var(--text-tertiary);
   font-style: italic;
+}
+
+/* ========== RESPONSIVE ========== */
+
+@media (max-width: 768px) {
+  .edit-header {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 15px;
+  }
+
+  .edit-header h1 {
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .back-btn,
+  .theme-toggle {
+    flex: 1;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .scenes-editor {
+    grid-template-columns: 1fr;
+  }
+
+  .manager-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+  }
+
+  .create-btn {
+    width: 100%;
+  }
+
+  .item-card {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+  }
+
+  .item-actions {
+    width: 100%;
+    justify-content: stretch;
+  }
+
+  .edit-btn-small,
+  .delete-btn-small {
+    flex: 1;
+  }
+
+  .editor-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+  }
+
+  .editor-actions {
+    width: 100%;
+  }
+
+  .cancel-btn,
+  .save-btn {
+    flex: 1;
+  }
+}
+
+@media (max-width: 480px) {
+  .edit-mode {
+    padding: 10px;
+  }
+
+  .edit-header h1 {
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+
+  .tab-btn {
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .item-name {
+    font-size: 16px;
+  }
+
+  .form-section {
+    padding: 15px;
+  }
+
+  .form-section h3 {
+    font-size: 16px;
+  }
 }
 

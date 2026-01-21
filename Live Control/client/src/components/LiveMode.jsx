@@ -238,14 +238,14 @@ function LiveMode({ setlist, onBack }) {
         {currentSong.metadata && (
           <div className="song-metadata">
             {currentSong.metadata.artist && (
-              <span className="metadata-item">🎤 {currentSong.metadata.artist}</span>
+              <span className="metadata-item">{currentSong.metadata.artist}</span>
             )}
             {currentSong.metadata.key && (
-              <span className="metadata-item">🎵 {currentSong.metadata.key}</span>
+              <span className="metadata-item">KEY: {currentSong.metadata.key}</span>
             )}
             {currentSong.metadata.bpm && (
               <span className="metadata-item">
-                ⏱️ {bpm} BPM {tempoMultiplier === 2 && <span className="tempo-indicator">(2x)</span>}
+                {bpm} BPM {tempoMultiplier === 2 && <span className="tempo-indicator">(2x)</span>}
               </span>
             )}
           </div>
@@ -281,7 +281,7 @@ function LiveMode({ setlist, onBack }) {
             onClick={() => setMetronomeEnabled(!metronomeEnabled)}
             title={metronomeEnabled ? 'Desactivar metrónomo' : 'Activar metrónomo'}
           >
-            ♪
+            METRO
           </button>
         )}
 
@@ -292,7 +292,7 @@ function LiveMode({ setlist, onBack }) {
             onClick={toggleTempo}
             title={`Tempo: ${tempoMultiplier}x (${bpm} BPM)`}
           >
-            {tempoMultiplier}x
+            {tempoMultiplier}X
           </button>
         )}
 
@@ -303,7 +303,7 @@ function LiveMode({ setlist, onBack }) {
             onClick={handleFullscreenClick}
             title={isStandalone ? 'Modo pantalla completa activo' : 'Pantalla completa'}
           >
-            {isStandalone ? '✓' : '⊞'}
+            {isStandalone ? 'FULL' : 'FULL'}
           </button>
         )}
       </div>
@@ -315,14 +315,14 @@ function LiveMode({ setlist, onBack }) {
           onClick={handlePrevSong}
           disabled={currentSongIndex === 0}
         >
-          ← Anterior
+          ◀ PREV
         </button>
         <button
           className="nav-btn next-btn"
           onClick={handleNextSong}
           disabled={!hasNextSong}
         >
-          Siguiente →
+          NEXT ▶
         </button>
       </div>
 
@@ -331,24 +331,24 @@ function LiveMode({ setlist, onBack }) {
         <div className="ios-instructions-overlay" onClick={() => setShowIOSInstructions(false)}>
           <div className="ios-instructions-modal">
             <div className="ios-instructions-header">
-              📱 Pantalla Completa en iPhone
+              FULLSCREEN MODE - iOS
             </div>
             <div className="ios-instructions-content">
               <div className="ios-step">
                 <div className="ios-step-number">1</div>
-                <div className="ios-step-text">Toca el botón <strong>Compartir</strong> (↑)</div>
+                <div className="ios-step-text">Tap <strong>Share</strong> button</div>
               </div>
               <div className="ios-step">
                 <div className="ios-step-number">2</div>
-                <div className="ios-step-text">Selecciona <strong>"Agregar a pantalla de inicio"</strong></div>
+                <div className="ios-step-text">Select <strong>"Add to Home Screen"</strong></div>
               </div>
               <div className="ios-step">
                 <div className="ios-step-number">3</div>
-                <div className="ios-step-text">Abre la app desde el ícono en tu pantalla de inicio</div>
+                <div className="ios-step-text">Open app from home screen icon</div>
               </div>
             </div>
             <div className="ios-instructions-footer">
-              Toca para cerrar
+              TAP TO CLOSE
             </div>
           </div>
         </div>

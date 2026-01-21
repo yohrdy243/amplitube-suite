@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import './EditMode.css'
+import { useRealtime } from '../hooks/useRealtime'
 
 function EditMode({ onBack, theme, onThemeToggle }) {
   const [activeTab, setActiveTab] = useState('songs') // 'songs' or 'setlists'
@@ -7,6 +8,46 @@ function EditMode({ onBack, theme, onThemeToggle }) {
   const [setlists, setSetlists] = useState([])
   const [editingSong, setEditingSong] = useState(null)
   const [editingSetlist, setEditingSetlist] = useState(null)
+
+  // Setup real-time synchronization
+  useRealtime({
+    onSongCreated: (song) => {
+      console.log('🔄 Recibida nueva canción:', song.name)
+      setSongs(prev => {
+        // Avoid duplicates
+        if (prev.find(s => s.id === song.id)) return prev
+        return [...prev, song]
+      })
+    },
+    onSongUpdated: (song) => {
+      console.log('🔄 Canción actualizada:', song.name)
+      setSongs(prev => prev.map(s => s.id === song.id ? song : s))
+    },
+    onSongDeleted: (songId) => {
+      console.log('🔄 Canción eliminada:', songId)
+      setSongs(prev => prev.filter(s => s.id !== songId))
+    },
+    onSetlistCreated: (setlist) => {
+      console.log('🔄 Recibido nuevo setlist:', setlist.name)
+      setSetlists(prev => {
+        // Avoid duplicates
+        if (prev.find(sl => sl.id === setlist.id)) return prev
+        return [...prev, setlist]
+      })
+    },
+    onSetlistUpdated: (setlist) => {
+      console.log('🔄 Setlist actualizado:', setlist.name)
+      setSetlists(prev => prev.map(sl => sl.id === setlist.id ? setlist : sl))
+    },
+    onSetlistDeleted: (setlistId) => {
+      console.log('🔄 Setlist eliminado:', setlistId)
+      setSetlists(prev => prev.filter(sl => sl.id !== setlistId))
+    },
+    onSetlistsReloaded: (newSetlists) => {
+      console.log('🔄 Setlists recargados')
+      setSetlists(newSetlists)
+    }
+  })
 
   // Load data on mount
   useEffect(() => {
@@ -74,11 +115,12 @@ function EditMode({ onBack, theme, onThemeToggle }) {
       })
 
       if (response.ok) {
-        await loadSongs()
+        // No need to reload - realtime will update automatically
         setEditingSong(null)
       }
     } catch (error) {
       console.error('Error saving song:', error)
+      alert('Error al guardar la canción')
     }
   }
 
@@ -87,11 +129,13 @@ function EditMode({ onBack, theme, onThemeToggle }) {
 
     try {
       const response = await fetch(`/api/songs/${songId}`, { method: 'DELETE' })
-      if (response.ok) {
-        await loadSongs()
+      if (!response.ok) {
+        throw new Error('Error al eliminar')
       }
+      // No need to reload - realtime will update automatically
     } catch (error) {
       console.error('Error deleting song:', error)
+      alert('Error al eliminar la canción')
     }
   }
 
@@ -120,11 +164,12 @@ function EditMode({ onBack, theme, onThemeToggle }) {
       })
 
       if (response.ok) {
-        await loadSetlists()
+        // No need to reload - realtime will update automatically
         setEditingSetlist(null)
       }
     } catch (error) {
       console.error('Error saving setlist:', error)
+      alert('Error al guardar el setlist')
     }
   }
 
@@ -133,11 +178,13 @@ function EditMode({ onBack, theme, onThemeToggle }) {
 
     try {
       const response = await fetch(`/api/setlists/${setlistId}`, { method: 'DELETE' })
-      if (response.ok) {
-        await loadSetlists()
+      if (!response.ok) {
+        throw new Error('Error al eliminar')
       }
+      // No need to reload - realtime will update automatically
     } catch (error) {
       console.error('Error deleting setlist:', error)
+      alert('Error al eliminar el setlist')
     }
   }
 
@@ -484,6 +531,16 @@ function SetlistEditor({ setlist, songs, onChange, onSave, onCancel }) {
               onChange={(e) => updateField('name', e.target.value)}
               placeholder="Ej: Domingo - Alabanza"
             />
+          </div>
+
+          <div className="form-group">
+            <label>Fecha del Evento *</label>
+            <input
+              type="date"
+              value={setlist.eventDate || ''}
+              onChange={(e) => updateField('eventDate', e.target.value)}
+            />
+            <small>Solo se mostrarán setlists con fecha igual o posterior a hoy</small>
           </div>
         </div>
 

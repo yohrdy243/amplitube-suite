@@ -43,6 +43,17 @@ Sistema profesional de control MIDI para AmpliTube 5 MAX diseñado específicame
 
 ## 🚀 Instalación
 
+### Opción 1: Instalación Automática (Recomendado)
+
+```bash
+# Windows - Doble clic en:
+setup.bat
+```
+
+Este script verifica requisitos, instala dependencias y configura todo automáticamente.
+
+### Opción 2: Instalación Manual
+
 ```bash
 # 1. Clonar o descargar el proyecto
 cd "Live Control"
@@ -55,12 +66,56 @@ cd client
 npm install
 cd ..
 
-# 4. Copiar archivo de configuración
+# 4. Compilar cliente
+cd client
+npm run build
+cd ..
+
+# 5. Copiar archivo de configuración
 copy .env.example .env
 
-# 5. (Opcional) Editar .env con tu configuración MIDI
+# 6. (Opcional) Editar .env con tu configuración MIDI
 notepad .env
 ```
+
+## ⚡ Inicio Rápido
+
+### Inicio Automático (Recomendado)
+
+```bash
+# Windows - Doble clic en:
+START_AQUI.bat
+```
+
+**Este script hace TODO automáticamente:**
+1. ✅ Actualiza presets desde Git (si está configurado)
+2. ✅ Inicia loopMIDI automáticamente
+3. ✅ Inicia AmpliTube 5 MAX automáticamente
+4. ✅ Compila el cliente
+5. ✅ Muestra la IP para conectar desde móviles
+6. ✅ Inicia el servidor Node.js
+
+**¡Solo ejecuta y listo!** 🎸
+
+### 📱 Conectar desde Dispositivos Móviles
+
+1. Ejecuta `START_AQUI.bat` en tu PC
+2. Busca la línea que dice: `📱 Red: http://192.168.x.x:3000`
+3. Abre esa URL en Safari (iPhone) o Chrome (Android)
+4. ¡Listo! Ya puedes controlar AmpliTube desde tu dispositivo
+
+### 🔄 Actualizar a Última Versión
+
+```bash
+# Windows - Doble clic en:
+update.bat
+```
+
+Este script actualiza automáticamente:
+- Código desde Git
+- Presets y configuraciones
+- Dependencias
+- Cliente compilado
 
 ## ⚙️ Configuración
 

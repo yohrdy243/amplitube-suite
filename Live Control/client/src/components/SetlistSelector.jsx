@@ -13,8 +13,9 @@ function SetlistSelector({ onSelect, onEditMode }) {
   const loadSetlists = async () => {
     try {
       setLoading(true)
-      const response = await fetch('/api/setlists')
-      
+      // Only load upcoming setlists (event_date >= today)
+      const response = await fetch('/api/setlists?upcoming=true')
+
       if (!response.ok) {
         throw new Error('Failed to load setlists')
       }
@@ -85,19 +86,31 @@ function SetlistSelector({ onSelect, onEditMode }) {
           </div>
         ) : (
           <div className="setlists-grid">
-            {setlists.map((setlist) => (
-              <button
-                key={setlist.id}
-                className="setlist-card"
-                onClick={() => handleSetlistClick(setlist)}
-              >
-                <div className="setlist-icon">▶</div>
-                <div className="setlist-name">{setlist.name}</div>
-                <div className="setlist-count">
-                  {setlist.songs.length} TRACKS
-                </div>
-              </button>
-            ))}
+            {setlists.map((setlist) => {
+              const eventDate = setlist.eventDate ? new Date(setlist.eventDate) : null;
+              const formattedDate = eventDate ? eventDate.toLocaleDateString('es-ES', {
+                weekday: 'short',
+                day: 'numeric',
+                month: 'short'
+              }).toUpperCase() : '';
+
+              return (
+                <button
+                  key={setlist.id}
+                  className="setlist-card"
+                  onClick={() => handleSetlistClick(setlist)}
+                >
+                  <div className="setlist-icon">▶</div>
+                  <div className="setlist-name">{setlist.name}</div>
+                  {formattedDate && (
+                    <div className="setlist-date">{formattedDate}</div>
+                  )}
+                  <div className="setlist-count">
+                    {setlist.songs.length} TRACKS
+                  </div>
+                </button>
+              );
+            })}
           </div>
         )}
       </div>
