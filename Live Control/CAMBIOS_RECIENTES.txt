@@ -1,0 +1,76 @@
+╔════════════════════════════════════════════════════════════════╗
+║                                                                ║
+║              📝 CAMBIOS RECIENTES - Live Control               ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+
+
+🎯 CAMBIO 1: AJUSTE DE NUMERACIÓN DE PRESETS
+═══════════════════════════════════════════════════════════════
+
+PROBLEMA:
+  - Cuando ponías "preset 1" en la data, AmpliTube cambiaba al preset 2
+  - Esto era porque MIDI cuenta desde 0
+
+SOLUCIÓN:
+  ✅ Ahora el sistema resta 1 automáticamente antes de enviar por MIDI
+  ✅ Lo que ves en la interfaz coincide con lo que pones en la data
+
+EJEMPLO:
+  Antes:
+    - Data: programChange: 0  →  AmpliTube: Preset 1  ✓
+    - Data: programChange: 1  →  AmpliTube: Preset 2  ✓
+    (Confuso porque no coincide con lo que ves)
+
+  Ahora:
+    - Data: programChange: 1  →  AmpliTube: Preset 1  ✓
+    - Data: programChange: 2  →  AmpliTube: Preset 2  ✓
+    (Intuitivo: lo que ves es lo que obtienes)
+
+ARCHIVOS MODIFICADOS:
+  - client/src/components/LiveMode.jsx (resta 1 antes de enviar MIDI)
+  - client/src/components/EditMode.jsx (label actualizado: 1-128)
+  - server/data/songs.json (presets actualizados: 1, 2, 3, 4, 5)
+  - SONG_METADATA.md (documentación actualizada)
+  - AMPLITUBE_SETUP.md (guía actualizada)
+
+
+🎨 CAMBIO 2: MEJORA DE BOTONES DE NAVEGACIÓN
+═══════════════════════════════════════════════════════════════
+
+PROBLEMA:
+  - Los botones "Anterior" y "Siguiente" se veían raros
+  - No tenían bordes ni efectos visuales claros
+
+SOLUCIÓN:
+  ✅ Bordes definidos con transparencia
+  ✅ Efecto de elevación al hacer hover
+  ✅ Animación de ripple al hacer click
+  ✅ Gradientes mejorados
+  ✅ Sombras más pronunciadas
+  ✅ Texto en mayúsculas con espaciado
+
+ARCHIVOS MODIFICADOS:
+  - client/src/components/LiveMode.css
+
+
+📦 COMPILACIÓN
+═══════════════════════════════════════════════════════════════
+
+✅ Cliente compilado exitosamente
+✅ Cambios listos para usar
+
+
+🚀 PRÓXIMOS PASOS
+═══════════════════════════════════════════════════════════════
+
+1. Ejecuta START_AQUI.bat para levantar el servidor
+2. Conecta desde tu iPhone a: http://192.168.0.104:3001
+3. Verifica que los presets ahora coincidan correctamente
+4. Prueba los nuevos botones de navegación
+
+
+═══════════════════════════════════════════════════════════════
+           Fecha: 2026-01-09
+═══════════════════════════════════════════════════════════════
+

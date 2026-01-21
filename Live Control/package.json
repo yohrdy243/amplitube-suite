@@ -1,0 +1,38 @@
+{
+  "name": "live-control",
+  "version": "1.1.0",
+  "description": "Professional MIDI control system for AmpliTube 5 MAX - Live Performance",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "server": "node server/index.js",
+    "client": "cd client && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "cd client && npm run build",
+    "start": "node server/index.js"
+  },
+  "keywords": [
+    "midi",
+    "amplitube",
+    "live",
+    "performance",
+    "music"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "jzz": "^1.9.6",
+    "uuid": "^9.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "@supabase/supabase-js": "^2.39.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
+

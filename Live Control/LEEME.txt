@@ -1,0 +1,83 @@
+╔════════════════════════════════════════════════════════════════╗
+║                                                                ║
+║           🎸 LIVE CONTROL - AmpliTube MIDI Controller          ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+
+
+📱 INICIO RÁPIDO
+═══════════════════════════════════════════════════════════════
+
+1️⃣  Doble clic en: "START_AQUI.bat"
+    (o en el acceso directo del escritorio "🎸 Live Control")
+
+2️⃣  Espera a que compile y muestre la IP
+
+3️⃣  Copia la URL que aparece en pantalla
+    Ejemplo: http://192.168.1.30:3000
+
+4️⃣  Abre Safari en tu iPhone
+
+5️⃣  Pega la URL y presiona Enter
+
+6️⃣  ¡Listo! 🎉
+
+
+📋 CHECKLIST ANTES DE INICIAR
+═══════════════════════════════════════════════════════════════
+
+✓ loopMIDI está corriendo
+✓ AmpliTube 5 MAX está abierto
+✓ iPhone conectado a la MISMA red WiFi que la PC
+
+
+🎯 ARCHIVOS IMPORTANTES
+═══════════════════════════════════════════════════════════════
+
+START_AQUI.bat          → Inicia el servidor (USA ESTE)
+start.bat               → Versión alternativa
+dev.bat                 → Solo para desarrollo
+crear-acceso-directo.vbs → Crea icono en escritorio
+
+
+📱 AGREGAR A PANTALLA DE INICIO (iPhone)
+═══════════════════════════════════════════════════════════════
+
+1. Abre la app en Safari
+2. Toca el botón "Compartir" (cuadrado con flecha ↑)
+3. Selecciona "Agregar a pantalla de inicio"
+4. Ahora tendrás un ícono como una app nativa!
+
+
+🆘 PROBLEMAS COMUNES
+═══════════════════════════════════════════════════════════════
+
+❌ No puedo conectar desde iPhone
+   → Verifica que estés en la MISMA red WiFi
+   → Desactiva VPN si está activa
+   → Verifica que el firewall no bloquee el puerto 3000
+
+❌ La página no carga
+   → Asegúrate de haber ejecutado START_AQUI.bat
+   → Verifica que el servidor esté corriendo
+   → Revisa la consola por errores
+
+❌ MIDI no funciona
+   → Verifica que loopMIDI esté corriendo
+   → Abre AmpliTube 5 MAX
+   → Revisa que el puerto MIDI sea el correcto
+
+
+📚 MÁS INFORMACIÓN
+═══════════════════════════════════════════════════════════════
+
+INICIO_RAPIDO.md        → Guía rápida completa
+INSTALLATION_GUIDE.md   → Instalación completa
+AMPLITUBE_SETUP.md      → Configuración AmpliTube
+TROUBLESHOOTING.md      → Solución de problemas
+
+
+═══════════════════════════════════════════════════════════════
+           Desarrollado con ❤️ para músicos en vivo
+═══════════════════════════════════════════════════════════════
+

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "setlist-001",
+    "name": "Setlist Domingo - Alabanza",
+    "songs": [
+      "song-001",
+      "song-002",
+      "song-003",
+      "song-004",
+      "song-005"
+    ]
+  },
+  {
+    "id": "setlist-1768417306812",
+    "name": "Miercoles 14/01",
+    "songs": [
+      "song-1768417318212",
+      "song-1768418251105",
+      "song-003",
+      "song-004"
+    ]
+  },
+  {
+    "id": "setlist-1768736990589",
+    "name": "Domingo 18 Primer Turno",
+    "songs": [
+      "song-001",
+      "song-002",
+      "song-1768736619941",
+      "song-1768736736479",
+      "song-1768736811252"
+    ]
+  }
+]

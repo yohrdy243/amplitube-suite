@@ -1,0 +1,322 @@
+[
+  {
+    "id": "song-001",
+    "name": "Jesús viene otra vez (Himno)",
+    "programChange": 1,
+    "scenes": [
+      {
+        "name": "Bajo",
+        "cc": 20
+      },
+      {
+        "name": "",
+        "cc": 21
+      },
+      {
+        "name": "",
+        "cc": 22
+      },
+      {
+        "name": "",
+        "cc": 23
+      }
+    ],
+    "metadata": {
+      "artist": "Himnario Adventista",
+      "key": "G",
+      "bpm": 80,
+      "duration": "3:45",
+      "youtubeUrl": "",
+      "albumArt": "",
+      "notes": "Himno tradicional"
+    }
+  },
+  {
+    "id": "song-002",
+    "name": "Cordero y León",
+    "programChange": 2,
+    "scenes": [
+      {
+        "name": "Lead",
+        "cc": 20
+      },
+      {
+        "name": "Rythm",
+        "cc": 21
+      },
+      {
+        "name": "Clean",
+        "cc": 22
+      },
+      {
+        "name": "",
+        "cc": 23
+      }
+    ],
+    "metadata": {
+      "artist": "Bethel Music",
+      "key": "D",
+      "bpm": 72,
+      "duration": "4:20",
+      "youtubeUrl": "https://www.youtube.com/watch?v=example",
+      "albumArt": "https://example.com/album-art.jpg",
+      "notes": "Canción de adoración moderna"
+    }
+  },
+  {
+    "id": "song-003",
+    "name": "En el nombre de Jesús",
+    "programChange": 3,
+    "scenes": [
+      {
+        "name": "Crunch",
+        "cc": 20
+      },
+      {
+        "name": "",
+        "cc": 21
+      },
+      {
+        "name": "",
+        "cc": 22
+      },
+      {
+        "name": "",
+        "cc": 23
+      }
+    ],
+    "metadata": {
+      "artist": "Darlene",
+      "key": "A",
+      "bpm": 140,
+      "duration": "5:10",
+      "youtubeUrl": "",
+      "albumArt": "",
+      "notes": "Tempo rápido, energético"
+    }
+  },
+  {
+    "id": "song-004",
+    "name": "El poder de la sangre",
+    "programChange": 4,
+    "scenes": [
+      {
+        "name": "Clean",
+        "cc": 20
+      },
+      {
+        "name": "Crunch",
+        "cc": 21
+      },
+      {
+        "name": "",
+        "cc": 22
+      },
+      {
+        "name": "",
+        "cc": 23
+      }
+    ],
+    "metadata": {
+      "artist": "Marcos Witt",
+      "key": "E",
+      "bpm": 95,
+      "duration": "4:35",
+      "youtubeUrl": "",
+      "albumArt": "",
+      "notes": ""
+    }
+  },
+  {
+    "id": "song-005",
+    "name": "Tu bondad",
+    "programChange": 5,
+    "scenes": [
+      {
+        "name": "Clean (Chrous)",
+        "cc": 20
+      },
+      {
+        "name": "Crunch",
+        "cc": 21
+      },
+      {
+        "name": "",
+        "cc": 22
+      },
+      {
+        "name": "",
+        "cc": 23
+      }
+    ],
+    "metadata": {
+      "artist": "Elevation Worship",
+      "key": "C",
+      "bpm": 68,
+      "duration": "6:15",
+      "youtubeUrl": "",
+      "albumArt": "",
+      "notes": "Balada lenta"
+    }
+  },
+  {
+    "id": "song-1768417318212",
+    "name": "Que se llene tu casa",
+    "programChange": 6,
+    "scenes": [
+      {
+        "name": "rthylm",
+        "cc": 20
+      },
+      {
+        "name": "",
+        "cc": 21
+      },
+      {
+        "name": "",
+        "cc": 22
+      },
+      {
+        "name": "",
+        "cc": 23
+      }
+    ],
+    "metadata": {
+      "artist": "",
+      "key": "",
+      "bpm": "",
+      "duration": "",
+      "youtubeUrl": "",
+      "albumArt": "",
+      "notes": ""
+    }
+  },
+  {
+    "id": "song-1768418251105",
+    "name": "Socorro",
+    "programChange": 7,
+    "scenes": [
+      {
+        "name": "Crunch",
+        "cc": 20
+      },
+      {
+        "name": "Clean",
+        "cc": 21
+      },
+      {
+        "name": "",
+        "cc": 22
+      },
+      {
+        "name": "",
+        "cc": 23
+      }
+    ],
+    "metadata": {
+      "artist": "",
+      "key": "",
+      "bpm": "",
+      "duration": "",
+      "youtubeUrl": "",
+      "albumArt": "",
+      "notes": ""
+    }
+  },
+  {
+    "id": "song-1768736619941",
+    "name": "Gracia Sublime",
+    "programChange": 8,
+    "scenes": [
+      {
+        "name": "Lead",
+        "cc": 20
+      },
+      {
+        "name": "Rythym",
+        "cc": 21
+      },
+      {
+        "name": "Acustic",
+        "cc": 22
+      },
+      {
+        "name": "",
+        "cc": 23
+      }
+    ],
+    "metadata": {
+      "artist": "Julio Melgar",
+      "key": "A",
+      "bpm": "",
+      "duration": "",
+      "youtubeUrl": "",
+      "albumArt": "",
+      "notes": ""
+    }
+  },
+  {
+    "id": "song-1768736736479",
+    "name": "Dios Imparable",
+    "programChange": 9,
+    "scenes": [
+      {
+        "name": "Clean",
+        "cc": 20
+      },
+      {
+        "name": "",
+        "cc": 21
+      },
+      {
+        "name": "",
+        "cc": 22
+      },
+      {
+        "name": "",
+        "cc": 23
+      }
+    ],
+    "metadata": {
+      "artist": "Marcos Wiit",
+      "key": "Gb",
+      "bpm": "",
+      "duration": "",
+      "youtubeUrl": "",
+      "albumArt": "",
+      "notes": ""
+    }
+  },
+  {
+    "id": "song-1768736811252",
+    "name": "Hermoso Nombre",
+    "programChange": 10,
+    "scenes": [
+      {
+        "name": "Clean",
+        "cc": 20
+      },
+      {
+        "name": "Lead",
+        "cc": 21
+      },
+      {
+        "name": "",
+        "cc": 22
+      },
+      {
+        "name": "",
+        "cc": 23
+      }
+    ],
+    "metadata": {
+      "artist": "Hillsong",
+      "key": "D",
+      "bpm": "",
+      "duration": "",
+      "youtubeUrl": "",
+      "albumArt": "",
+      "notes": ""
+    }
+  }
+]
