@@ -318,5 +318,101 @@
       "albumArt": "",
       "notes": ""
     }
+  },
+  {
+    "id": "song-1769056160415",
+    "name": "Gloria en lo Alto",
+    "programChange": 9,
+    "scenes": [
+      {
+        "name": "Clean",
+        "cc": 20
+      },
+      {
+        "name": "Crunch",
+        "cc": 21
+      },
+      {
+        "name": "Lead",
+        "cc": 22
+      },
+      {
+        "name": "",
+        "cc": 23
+      }
+    ],
+    "metadata": {
+      "artist": "",
+      "key": "",
+      "bpm": "",
+      "duration": "",
+      "youtubeUrl": "",
+      "albumArt": "",
+      "notes": ""
+    }
+  },
+  {
+    "id": "song-1769058219373",
+    "name": "Hay poder",
+    "programChange": 10,
+    "scenes": [
+      {
+        "name": "Bass",
+        "cc": 20
+      },
+      {
+        "name": "",
+        "cc": 21
+      },
+      {
+        "name": "",
+        "cc": 22
+      },
+      {
+        "name": "",
+        "cc": 23
+      }
+    ],
+    "metadata": {
+      "artist": "",
+      "key": "",
+      "bpm": "",
+      "duration": "",
+      "youtubeUrl": "",
+      "albumArt": "",
+      "notes": ""
+    }
+  },
+  {
+    "id": "song-1769058322963",
+    "name": "Desert Song",
+    "programChange": 11,
+    "scenes": [
+      {
+        "name": "Clean",
+        "cc": 20
+      },
+      {
+        "name": "Crunch",
+        "cc": 21
+      },
+      {
+        "name": "",
+        "cc": 22
+      },
+      {
+        "name": "",
+        "cc": 23
+      }
+    ],
+    "metadata": {
+      "artist": "",
+      "key": "",
+      "bpm": "",
+      "duration": "",
+      "youtubeUrl": "",
+      "albumArt": "",
+      "notes": ""
+    }
   }
 ]
