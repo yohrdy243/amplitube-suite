@@ -1,28 +1,8 @@
 [
   {
-    "id": "setlist-001",
-    "name": "Setlist Domingo - Alabanza",
-    "songs": [
-      "song-001",
-      "song-002",
-      "song-003",
-      "song-004",
-      "song-005"
-    ]
-  },
-  {
-    "id": "setlist-1768417306812",
-    "name": "Miercoles 14/01",
-    "songs": [
-      "song-1768417318212",
-      "song-1768418251105",
-      "song-003",
-      "song-004"
-    ]
-  },
-  {
     "id": "setlist-1768736990589",
     "name": "Domingo 18 Primer Turno",
+    "eventDate": "2026-01-25",
     "songs": [
       "song-001",
       "song-002",
@@ -34,13 +14,36 @@
   {
     "id": "setlist-1769058349963",
     "name": "Domingo 25 Enero 2026",
+    "eventDate": "2026-01-26",
     "songs": [
       "song-1769058219373",
       "song-1769056160415",
       "song-1768736619941",
       "song-1769058322963",
       "song-1768736811252"
-    ],
-    "eventDate": "2026-01-26"
+    ]
+  },
+  {
+    "id": "setlist-1768417306812",
+    "name": "Miercoles 14/01",
+    "eventDate": "2026-01-25",
+    "songs": [
+      "song-1768417318212",
+      "song-1768418251105",
+      "song-003",
+      "song-004"
+    ]
+  },
+  {
+    "id": "setlist-001",
+    "name": "Setlist Domingo - Alabanza",
+    "eventDate": "2026-01-25",
+    "songs": [
+      "song-001",
+      "song-002",
+      "song-003",
+      "song-004",
+      "song-005"
+    ]
   }
 ]
