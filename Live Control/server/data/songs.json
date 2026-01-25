@@ -290,7 +290,7 @@
   {
     "id": "song-1768736811252",
     "name": "Hermoso Nombre",
-    "programChange": 10,
+    "programChange": 11,
     "scenes": [
       {
         "name": "Clean",
@@ -354,7 +354,7 @@
   {
     "id": "song-1769058219373",
     "name": "Hay poder",
-    "programChange": 10,
+    "programChange": 1,
     "scenes": [
       {
         "name": "Bass",
@@ -386,7 +386,7 @@
   {
     "id": "song-1769058322963",
     "name": "Desert Song",
-    "programChange": 11,
+    "programChange": 10,
     "scenes": [
       {
         "name": "Clean",
