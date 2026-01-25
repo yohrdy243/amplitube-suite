@@ -8,8 +8,6 @@ Songs/
 Live Control/node_modules/
 Live Control/dist/
 Live Control/build/
-Live Control/.env
-Live Control/.env.*
 
 # Sistema
 .DS_Store
