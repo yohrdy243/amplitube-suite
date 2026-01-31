@@ -96,6 +96,38 @@
     }
   },
   {
+    "id": "song-1769821666878",
+    "name": "Dios Poderoso",
+    "programChange": 1,
+    "scenes": [
+      {
+        "name": "Bass",
+        "cc": 20
+      },
+      {
+        "name": "",
+        "cc": 21
+      },
+      {
+        "name": "",
+        "cc": 22
+      },
+      {
+        "name": "",
+        "cc": 23
+      }
+    ],
+    "metadata": {
+      "artist": "",
+      "key": "",
+      "bpm": null,
+      "duration": "",
+      "youtubeUrl": "",
+      "albumArt": "",
+      "notes": ""
+    }
+  },
+  {
     "id": "song-004",
     "name": "El poder de la sangre",
     "programChange": 4,
@@ -330,6 +362,38 @@
       },
       {
         "name": "",
+        "cc": 21
+      },
+      {
+        "name": "",
+        "cc": 22
+      },
+      {
+        "name": "",
+        "cc": 23
+      }
+    ],
+    "metadata": {
+      "artist": "",
+      "key": "",
+      "bpm": null,
+      "duration": "",
+      "youtubeUrl": "",
+      "albumArt": "",
+      "notes": ""
+    }
+  },
+  {
+    "id": "song-1769821767063",
+    "name": "Santo por Siempre",
+    "programChange": 12,
+    "scenes": [
+      {
+        "name": "Lead Clean",
+        "cc": 20
+      },
+      {
+        "name": "Clean",
         "cc": 21
       },
       {

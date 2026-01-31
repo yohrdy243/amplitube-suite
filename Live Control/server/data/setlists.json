@@ -1,5 +1,16 @@
 [
   {
+    "id": "setlist-1769821530416",
+    "name": "Domingo 1 Febrero 3er Turno",
+    "eventDate": "2026-02-01",
+    "songs": [
+      "song-1769058219373",
+      "song-1769056160415",
+      "song-1769821666878",
+      "song-1769821767063"
+    ]
+  },
+  {
     "id": "setlist-1768736990589",
     "name": "Domingo 18 Primer Turno",
     "eventDate": "2026-01-25",
