@@ -128,6 +128,38 @@
     }
   },
   {
+    "id": "song-1770093748229",
+    "name": "El fuego no se apagara",
+    "programChange": 13,
+    "scenes": [
+      {
+        "name": "Clean",
+        "cc": 20
+      },
+      {
+        "name": "Solo",
+        "cc": 21
+      },
+      {
+        "name": "Bridge",
+        "cc": 22
+      },
+      {
+        "name": "",
+        "cc": 23
+      }
+    ],
+    "metadata": {
+      "artist": "Rey de Reyes",
+      "key": "",
+      "bpm": null,
+      "duration": "",
+      "youtubeUrl": "",
+      "albumArt": "",
+      "notes": ""
+    }
+  },
+  {
     "id": "song-004",
     "name": "El poder de la sangre",
     "programChange": 4,
@@ -320,6 +352,38 @@
     }
   },
   {
+    "id": "song-1770093938281",
+    "name": "Hossana",
+    "programChange": 15,
+    "scenes": [
+      {
+        "name": "Clean",
+        "cc": 20
+      },
+      {
+        "name": "Rhythm",
+        "cc": 21
+      },
+      {
+        "name": "Solo",
+        "cc": 22
+      },
+      {
+        "name": "",
+        "cc": 23
+      }
+    ],
+    "metadata": {
+      "artist": "Hillsong",
+      "key": "E",
+      "bpm": null,
+      "duration": "",
+      "youtubeUrl": "",
+      "albumArt": "",
+      "notes": ""
+    }
+  },
+  {
     "id": "song-001",
     "name": "Jesús viene otra vez (Himno)",
     "programChange": 1,
@@ -477,6 +541,38 @@
       "youtubeUrl": "",
       "albumArt": "",
       "notes": "Balada lenta"
+    }
+  },
+  {
+    "id": "song-1770093831000",
+    "name": "Vamos a Cantar",
+    "programChange": 14,
+    "scenes": [
+      {
+        "name": "Rythym",
+        "cc": 20
+      },
+      {
+        "name": "Lead",
+        "cc": 21
+      },
+      {
+        "name": "",
+        "cc": 22
+      },
+      {
+        "name": "",
+        "cc": 23
+      }
+    ],
+    "metadata": {
+      "artist": "En Espíritu y en Verdad",
+      "key": "Ab",
+      "bpm": null,
+      "duration": "",
+      "youtubeUrl": "",
+      "albumArt": "",
+      "notes": ""
     }
   }
 ]

@@ -46,6 +46,17 @@
     ]
   },
   {
+    "id": "setlist-1770094576271",
+    "name": "Miércoles 4",
+    "eventDate": "2026-02-04",
+    "songs": [
+      "song-1770093748229",
+      "song-1770093831000",
+      "song-1769058322963",
+      "song-1770093938281"
+    ]
+  },
+  {
     "id": "setlist-001",
     "name": "Setlist Domingo - Alabanza",
     "eventDate": "2026-01-25",
