@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<Preset Version="2" Format="at5p" GUID="370ca9db-c1a2-477f-a297-0e0a9d812c3a" PresetBPM="120" ProgramChange="-1">
+<Preset Version="2" Format="at5p" GUID="d146cdaa-171b-4d8f-b4f1-d0b9b8818669" PresetBPM="120" ProgramChange="-1">
     <Chain Preset="Chain12" DIBeforeAmp="0" />
     <Input Input="1" />
     <Tuner Bypass="0" Mute="0" OutputVolume="1" TunerType="354eca51-457a-41b7-917d-ce6117586905">
@@ -27,7 +27,7 @@
         <Slot2 />
     </StompStereo>
     <StompB1 Bypass="0" Mute="0" OutputVolume="1" Stomp0="0455f997-43ca-4c9b-9269-286a19d10d48" Stomp1="0455f997-43ca-4c9b-9269-286a19d10d48" Stomp2="fa1de2e2-102b-4edf-b3b5-23ceaeddedf0" Stomp3="773b8ea7-b54a-4a3c-99df-ffbbf6d29271" Stomp4="773b8ea7-b54a-4a3c-99df-ffbbf6d29271" Stomp5="773b8ea7-b54a-4a3c-99df-ffbbf6d29271">
-        <Slot0 Bypass="1" FullScreen="0" Threshold="1" Release="200" Depth="-60" />
+        <Slot0 Bypass="0" FullScreen="0" Threshold="1" Release="200" Depth="-60" />
         <Slot1 Bypass="0" FullScreen="0" Threshold="0.00237238" Release="66.8554" Depth="-100" />
         <Slot2 Bypass="0" FullScreen="0" Drive="8.69035" Level="2.0006" Tone="10" />
         <Slot3 />
@@ -35,7 +35,7 @@
         <Slot5 />
     </StompB1>
     <StompB2 Bypass="0" Mute="0" OutputVolume="1" Stomp0="0455f997-43ca-4c9b-9269-286a19d10d48" Stomp1="773b8ea7-b54a-4a3c-99df-ffbbf6d29271" Stomp2="773b8ea7-b54a-4a3c-99df-ffbbf6d29271" Stomp3="773b8ea7-b54a-4a3c-99df-ffbbf6d29271" Stomp4="773b8ea7-b54a-4a3c-99df-ffbbf6d29271" Stomp5="773b8ea7-b54a-4a3c-99df-ffbbf6d29271">
-        <Slot0 Bypass="0" FullScreen="0" Threshold="1" Release="200" Depth="-60" />
+        <Slot0 Bypass="1" FullScreen="0" Threshold="1" Release="200" Depth="-60" />
         <Slot1 />
         <Slot2 />
         <Slot3 />
@@ -51,7 +51,7 @@
         <Slot5 />
     </StompB3>
     <AmpA Bypass="0" Mute="0" OutputVolume="1" Model="75ad4a0e-5c75-443d-8617-9681c4fe58d3">
-        <Amp Ch3Presence_MesaDualRectifier="5.6" Ch3Master_MesaDualRectifier="1.77224" Ch3Gain_MesaDualRectifier="10" Ch3Bass_MesaDualRectifier="5.3" Ch3Mid_MesaDualRectifier="4.4" Ch3Treble_MesaDualRectifier="5.9" Ch3Type_MesaDualRectifier="Modern" Ch2Presence_MesaDualRectifier="7.8" Ch2Master_MesaDualRectifier="2" Ch2Gain_MesaDualRectifier="8.1" Ch2Bass_MesaDualRectifier="4.1" Ch2Mid_MesaDualRectifier="6.4" Ch2Treble_MesaDualRectifier="5.3" Ch2Type_MesaDualRectifier="Vintage" Ch1Presence_MesaDualRectifier="7.42188" Ch1Master_MesaDualRectifier="2" Ch1Gain_MesaDualRectifier="8.1" Ch1Bass_MesaDualRectifier="4.6875" Ch1Mid_MesaDualRectifier="8.35938" Ch1Treble_MesaDualRectifier="6.2" Ch1Type_MesaDualRectifier="0" Channele_MesaDualRectifier="Ch 3" BiasType_MesaDualRectifier="0" RectifierType_MesaTripleRectifier="1" PowerType_MesaDualRectifier="1" />
+        <Amp Ch3Presence_MesaDualRectifier="3.03765" Ch3Master_MesaDualRectifier="1.77224" Ch3Gain_MesaDualRectifier="10" Ch3Bass_MesaDualRectifier="5.3" Ch3Mid_MesaDualRectifier="4.4" Ch3Treble_MesaDualRectifier="4.13482" Ch3Type_MesaDualRectifier="Modern" Ch2Presence_MesaDualRectifier="5.40847" Ch2Master_MesaDualRectifier="2" Ch2Gain_MesaDualRectifier="8.1" Ch2Bass_MesaDualRectifier="4.1" Ch2Mid_MesaDualRectifier="6.4" Ch2Treble_MesaDualRectifier="4.73059" Ch2Type_MesaDualRectifier="Vintage" Ch1Presence_MesaDualRectifier="7.42188" Ch1Master_MesaDualRectifier="2" Ch1Gain_MesaDualRectifier="8.1" Ch1Bass_MesaDualRectifier="4.6875" Ch1Mid_MesaDualRectifier="8.35938" Ch1Treble_MesaDualRectifier="6.2" Ch1Type_MesaDualRectifier="0" Channele_MesaDualRectifier="Ch 3" BiasType_MesaDualRectifier="0" RectifierType_MesaTripleRectifier="1" PowerType_MesaDualRectifier="1" />
     </AmpA>
     <AmpB Bypass="0" Mute="0" OutputVolume="1" Model="dffa559d-7b12-464a-9fbf-877ca25f5cf3">
         <Amp Dwell_VibroKing="3.98438" Mix_VibroKing="3.4951" Tone_VibroKing="6.09375" Fat_VibroKing="0" Volume_VibroKing="1.27314" Treble_VibroKing="5.09449" Bass_VibroKing="4.46963" Mid_VibroKing="5.54684" Speed_VibroKing="4.84375" Intensity_VibroKing="0" />
