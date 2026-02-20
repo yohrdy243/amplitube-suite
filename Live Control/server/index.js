@@ -171,20 +171,10 @@ app.delete('/api/songs/:id', async (req, res) => {
 
 /**
  * GET /api/setlists
- * Get all setlists (optionally filter upcoming only)
+ * Get all setlists (no date filtering)
  */
 app.get('/api/setlists', (req, res) => {
-  const { upcoming } = req.query;
   let setlists = dataManager.getAllSetlists();
-
-  // Filter upcoming setlists (event_date > yesterday)
-  // This shows setlists until AFTER the event date (inclusive of event day)
-  if (upcoming === 'true') {
-    const yesterday = new Date();
-    yesterday.setDate(yesterday.getDate() - 1);
-    const yesterdayStr = yesterday.toISOString().split('T')[0];
-    setlists = setlists.filter(s => s.eventDate > yesterdayStr);
-  }
 
   // Sort by event_date DESC (most recent first)
   setlists.sort((a, b) => {

@@ -288,6 +288,38 @@
     }
   },
   {
+    "id": "song-1770424414752",
+    "name": "Hay Libertad",
+    "programChange": 16,
+    "scenes": [
+      {
+        "name": "Guitar",
+        "cc": 20
+      },
+      {
+        "name": "Bass",
+        "cc": 21
+      },
+      {
+        "name": "",
+        "cc": 22
+      },
+      {
+        "name": "",
+        "cc": 23
+      }
+    ],
+    "metadata": {
+      "artist": "La IBI",
+      "key": "",
+      "bpm": null,
+      "duration": "",
+      "youtubeUrl": "",
+      "albumArt": "",
+      "notes": ""
+    }
+  },
+  {
     "id": "song-1769058219373",
     "name": "Hay poder",
     "programChange": 1,
@@ -568,6 +600,70 @@
     "metadata": {
       "artist": "En Espíritu y en Verdad",
       "key": "Ab",
+      "bpm": null,
+      "duration": "",
+      "youtubeUrl": "",
+      "albumArt": "",
+      "notes": ""
+    }
+  },
+  {
+    "id": "song-1771168573166",
+    "name": "Mi Gozo",
+    "programChange": 17,
+    "scenes": [
+      {
+        "name": "Lead",
+        "cc": 20
+      },
+      {
+        "name": "",
+        "cc": 21
+      },
+      {
+        "name": "",
+        "cc": 22
+      },
+      {
+        "name": "",
+        "cc": 23
+      }
+    ],
+    "metadata": {
+      "artist": "",
+      "key": "",
+      "bpm": null,
+      "duration": "",
+      "youtubeUrl": "",
+      "albumArt": "",
+      "notes": ""
+    }
+  },
+  {
+    "id": "song-1771168616326",
+    "name": "Worthy Digno",
+    "programChange": 18,
+    "scenes": [
+      {
+        "name": "Clean",
+        "cc": 20
+      },
+      {
+        "name": "Lead",
+        "cc": 21
+      },
+      {
+        "name": "",
+        "cc": 22
+      },
+      {
+        "name": "",
+        "cc": 23
+      }
+    ],
+    "metadata": {
+      "artist": "",
+      "key": "",
       "bpm": null,
       "duration": "",
       "youtubeUrl": "",

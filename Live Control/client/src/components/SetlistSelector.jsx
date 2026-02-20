@@ -13,8 +13,8 @@ function SetlistSelector({ onSelect, onEditMode }) {
   const loadSetlists = async () => {
     try {
       setLoading(true)
-      // Only load upcoming setlists (event_date >= today)
-      const response = await fetch('/api/setlists?upcoming=true')
+      // Load all setlists (no date filtering)
+      const response = await fetch('/api/setlists')
 
       if (!response.ok) {
         throw new Error('Failed to load setlists')
