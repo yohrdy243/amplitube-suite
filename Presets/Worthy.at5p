@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<Preset Version="2" Format="at5p" GUID="c6716dc4-3614-41a9-975e-90ba3928cbd0" PresetBPM="120" ProgramChange="-1">
+<Preset Version="2" Format="at5p" GUID="6d36dbbd-9f4b-4215-9a47-8a1d1b1933a6" PresetBPM="120" ProgramChange="-1">
     <Chain Preset="Chain12" DIBeforeAmp="0" />
     <Input Input="1" />
     <Tuner Bypass="0" Mute="0" OutputVolume="1" TunerType="354eca51-457a-41b7-917d-ce6117586905">
@@ -37,7 +37,7 @@
     <StompB2 Bypass="0" Mute="0" OutputVolume="1" Stomp0="0455f997-43ca-4c9b-9269-286a19d10d48" Stomp1="0455f997-43ca-4c9b-9269-286a19d10d48" Stomp2="fa1de2e2-102b-4edf-b3b5-23ceaeddedf0" Stomp3="773b8ea7-b54a-4a3c-99df-ffbbf6d29271" Stomp4="773b8ea7-b54a-4a3c-99df-ffbbf6d29271" Stomp5="773b8ea7-b54a-4a3c-99df-ffbbf6d29271">
         <Slot0 Bypass="1" FullScreen="0" Threshold="1" Release="200" Depth="-60" />
         <Slot1 Bypass="0" FullScreen="0" Threshold="0.000642513" Release="200" Depth="-60" />
-        <Slot2 Bypass="0" FullScreen="0" Drive="9.375" Level="1.85824" Tone="10" />
+        <Slot2 Bypass="1" FullScreen="0" Drive="9.375" Level="1.85824" Tone="10" />
         <Slot3 />
         <Slot4 />
         <Slot5 />
@@ -91,9 +91,9 @@
         <Slot0 Bypass="1" FullScreen="0" Mode="Mono" DelayTime="500" Feedback="46.875" Filter="1830.06" Mix="20.625" OutLevel="1" BPMSync="1" BPMMeter="1/4" />
         <Slot1 />
     </RackA>
-    <RackB Bypass="0" Mute="0" OutputVolume="1" Stomp0="1189979a-db5d-4dc1-9228-7bd974d8a8c5" Stomp1="59ab0817-b168-4bdc-b837-e3cba1efb2dd">
+    <RackB Bypass="0" Mute="0" OutputVolume="1" Stomp0="1189979a-db5d-4dc1-9228-7bd974d8a8c5" Stomp1="1520c0ae-a27f-4b36-a73f-942f9cd3e262">
         <Slot0 Bypass="0" FullScreen="0" Mode="LCR" DelayTime="250" Feedback="35.7714" Filter="1830.06" Mix="18.6321" OutLevel="1" BPMSync="1" BPMMeter="1/8" />
-        <Slot1 Bypass="0" FullScreen="0" DecayTime="4" Density="75" Color="2000" Mix="19.1526" OutLevel="0.636141" />
+        <Slot1 Bypass="0" FullScreen="0" Mix="34" Decay="40" Size="40" Mode="Mod2" Shift="0" Modulation="15" ModRate="15" />
     </RackB>
     <RackC Bypass="0" Mute="0" OutputVolume="1" Stomp0="773b8ea7-b54a-4a3c-99df-ffbbf6d29271" Stomp1="773b8ea7-b54a-4a3c-99df-ffbbf6d29271">
         <Slot0 />
@@ -115,6 +115,7 @@
     <MidiAssignments>
         <Assignment0 ControlName="OverScream Bypass" GUID="fa1de2e2-102b-4edf-b3b5-23ceaeddedf0" Number="20" Min="0" Max="100" Curve="5" Latch="0" ChainSlot="StompB2" ChainSubSlot="2" MessageType="CC" Parameter="Bypass" />
         <Assignment1 ControlName="OverScream Bypass" GUID="fa1de2e2-102b-4edf-b3b5-23ceaeddedf0" Number="21" Min="100" Max="0" Curve="5" Latch="0" ChainSlot="StompB2" ChainSubSlot="2" MessageType="CC" Parameter="Bypass" />
+        <Assignment2 ControlName="OverScream Bypass" GUID="fa1de2e2-102b-4edf-b3b5-23ceaeddedf0" Number="21" Min="100" Max="0" Curve="5" Latch="0" ChainSlot="StompB2" ChainSubSlot="2" MessageType="CC" Parameter="Bypass" />
     </MidiAssignments>
     <MetaInfo Description="" Style="None" SoundCharacter="None" Instrument="None" Body="None" PickUpPosition="None" Artist="Chrsitine D&apos;Clario" Band="" Song="" Album="" SongStructureElement="None" KeyWords="" Type="None" />
 </Preset>

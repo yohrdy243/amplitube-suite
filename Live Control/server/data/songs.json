@@ -670,5 +670,229 @@
       "albumArt": "",
       "notes": ""
     }
+  },
+  {
+    "id": "song-1774114477933",
+    "name": "Clean",
+    "programChange": 19,
+    "scenes": [
+      {
+        "name": "Clean",
+        "cc": 20
+      },
+      {
+        "name": "",
+        "cc": 21
+      },
+      {
+        "name": "",
+        "cc": 22
+      },
+      {
+        "name": "",
+        "cc": 23
+      }
+    ],
+    "metadata": {
+      "artist": "",
+      "key": "",
+      "bpm": "",
+      "duration": "",
+      "youtubeUrl": "",
+      "albumArt": "",
+      "notes": ""
+    }
+  },
+  {
+    "id": "song-1774114546006",
+    "name": "Anhelo Conocerte",
+    "programChange": 20,
+    "scenes": [
+      {
+        "name": "Clean",
+        "cc": 20
+      },
+      {
+        "name": "Lead",
+        "cc": 21
+      },
+      {
+        "name": "",
+        "cc": 22
+      },
+      {
+        "name": "",
+        "cc": 23
+      }
+    ],
+    "metadata": {
+      "artist": "",
+      "key": "",
+      "bpm": "",
+      "duration": "",
+      "youtubeUrl": "",
+      "albumArt": "",
+      "notes": ""
+    }
+  },
+  {
+    "id": "song-1774114796162",
+    "name": "De Gloria en Gloria",
+    "programChange": 21,
+    "scenes": [
+      {
+        "name": "Crunch",
+        "cc": 20
+      },
+      {
+        "name": "Clean",
+        "cc": 21
+      },
+      {
+        "name": "Coro",
+        "cc": 22
+      },
+      {
+        "name": "",
+        "cc": 23
+      }
+    ],
+    "metadata": {
+      "artist": "",
+      "key": "",
+      "bpm": "",
+      "duration": "",
+      "youtubeUrl": "",
+      "albumArt": "",
+      "notes": ""
+    }
+  },
+  {
+    "id": "song-1774713064078",
+    "name": "Has aumentado",
+    "programChange": 22,
+    "scenes": [
+      {
+        "name": "Lead",
+        "cc": 20
+      },
+      {
+        "name": "",
+        "cc": 21
+      },
+      {
+        "name": "",
+        "cc": 22
+      },
+      {
+        "name": "",
+        "cc": 23
+      }
+    ],
+    "metadata": {
+      "artist": "",
+      "key": "",
+      "bpm": "",
+      "duration": "",
+      "youtubeUrl": "",
+      "albumArt": "",
+      "notes": ""
+    }
+  },
+  {
+    "id": "song-1775390076693",
+    "name": "Con Todas mis fuerzas",
+    "programChange": 23,
+    "scenes": [
+      {
+        "name": "Lead",
+        "cc": 20
+      },
+      {
+        "name": "Clean",
+        "cc": 21
+      },
+      {
+        "name": "",
+        "cc": 22
+      },
+      {
+        "name": "",
+        "cc": 23
+      }
+    ],
+    "metadata": {
+      "artist": "",
+      "key": "",
+      "bpm": "",
+      "duration": "",
+      "youtubeUrl": "",
+      "albumArt": "",
+      "notes": ""
+    }
+  },
+  {
+    "id": "song-1775390112663",
+    "name": "Solo Hay Uno",
+    "programChange": 24,
+    "scenes": [
+      {
+        "name": "Crunch",
+        "cc": 20
+      },
+      {
+        "name": "",
+        "cc": 21
+      },
+      {
+        "name": "",
+        "cc": 22
+      },
+      {
+        "name": "",
+        "cc": 23
+      }
+    ],
+    "metadata": {
+      "artist": "",
+      "key": "",
+      "bpm": "",
+      "duration": "",
+      "youtubeUrl": "",
+      "albumArt": "",
+      "notes": ""
+    }
+  },
+  {
+    "id": "song-1775390237525",
+    "name": "Majestad",
+    "programChange": 25,
+    "scenes": [
+      {
+        "name": "Clean",
+        "cc": 20
+      },
+      {
+        "name": "Lead",
+        "cc": 21
+      },
+      {
+        "name": "",
+        "cc": 22
+      },
+      {
+        "name": "",
+        "cc": 23
+      }
+    ],
+    "metadata": {
+      "artist": "",
+      "key": "",
+      "bpm": "",
+      "duration": "",
+      "youtubeUrl": "",
+      "albumArt": "",
+      "notes": ""
+    }
   }
 ]
