@@ -1022,5 +1022,37 @@
       "albumArt": "",
       "notes": ""
     }
+  },
+  {
+    "id": "song-1777243138740",
+    "name": "Acustic",
+    "programChange": 30,
+    "scenes": [
+      {
+        "name": "Intro",
+        "cc": 20
+      },
+      {
+        "name": "Verso",
+        "cc": 21
+      },
+      {
+        "name": "Coro",
+        "cc": 22
+      },
+      {
+        "name": "Final",
+        "cc": 23
+      }
+    ],
+    "metadata": {
+      "artist": "",
+      "key": "",
+      "bpm": "",
+      "duration": "",
+      "youtubeUrl": "",
+      "albumArt": "",
+      "notes": ""
+    }
   }
 ]
